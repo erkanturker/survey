@@ -1,0 +1,40 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+form {
+  margin-top: 20px;
+}
+
+/* Styling for radio button choices */
+form p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Styling for the submit button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
