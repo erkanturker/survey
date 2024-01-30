@@ -38,3 +38,21 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 200px;
+}
+
+/* Style for the options */
+select option {
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}

@@ -6,6 +6,9 @@
   <p><input type="radio" name="answer" value="{{ choice }}"> {{ choice }}</p>
   {% endfor %}
   </select>
+  {% if question.allow_text%}
+  <input type="text" name="text" id="text">
+  {% endif %}
   <button>Continue</button>
 </form>
 {% endblock %}
